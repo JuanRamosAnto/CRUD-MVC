@@ -5,13 +5,13 @@ namespace CRUDCORE.Models
     {
 
         public int IdContacto { get; set; }
-        [Required(ErrorMessage = "El nombre es obligatorio")]
+        [Required(ErrorMessage = "El Nombre es obligatorio")]
         public string? Nombre { get; set; }
         
-        [Required(ErrorMessage = "El telefono es obligatorio")]
+        [Required(ErrorMessage = "El Telefono es obligatorio")]
         public string? Telefono { get; set; }
        
-        [Required(ErrorMessage = "El correo es obligatorio")]
+        [Required(ErrorMessage = "El Correo es obligatorio")]
         public string? Correo { get; set; }
         
     }
